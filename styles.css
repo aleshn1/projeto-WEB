@@ -11,23 +11,35 @@ header {
     text-align: center;
     padding: 1em 0;
 }
+.visual{
+    width: 35%;
+    max-width: 250px;
+    display :flex;
+    justify-content:space-between;
+    
+}
+.nome {
+    text-align: center;
+    background-color: #1509b6;
+    color: #f0f4f8;
+    padding: 1em 5;
+}
+
 
 section {
     margin: 10px;
-    
-    
-}
-.turma {
-    width: 150%;
-    max-width: 250px;
-    display :flex;
-    justify-content:space-around;
+    padding: 0em;
+    text-align : center;
 }
 
-h2 {
-    color: #333;
+.turma {
+    width: 33%;
+    max-width: 250px;
+    display :flex;
+    justify-content:space-between;
     
 }
+
 
 img {
     width: 300px;
@@ -39,9 +51,6 @@ img {
     height: 200px;
     
 }
-
-
-
 form {
     display: flex;
     flex-direction: column;
