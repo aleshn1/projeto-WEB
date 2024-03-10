@@ -20,7 +20,9 @@
 .images-title {
     align-items: center; 
     align-content: center;
-    margin: 56px;
+    margin: 30px;
+    display: flex;
+    justify-content:space-between;
 
 }
 .imagem {
@@ -49,18 +51,6 @@ section {
     margin: 10px;
     padding: 0em;
     text-align : center;
-}
-
-.turma {
-    
-    display :flex;
-    justify-content:space-between;
-    
-    
-}
-.turmas {
-    display :flex;
-    justify-content:space-between;
 }
 
 img {
@@ -125,7 +115,7 @@ button {
 
 /* Estilo para o corpo do card */
 .card-body {
-    padding: 5px; /* Adiciona um preenchimento interno ao corpo do card */
+    padding: 1px; /* Adiciona um preenchimento interno ao corpo do card */
 }
 
 /* Estilo para o texto do card */
