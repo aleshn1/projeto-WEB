@@ -1,30 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+@media only screen and (max-width: 600px) {
+.geral{
+      background-color: lightblue;
+      margin: 0;
     padding: 0;
-    
-}
+    }
+  }
 
-header {
+.titulo {
     background-color: #1509b6;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 5% 0;
+    margin: 0;
 }
-.visual{
-    width: 35%;
-    max-width: 250px;
-    display :flex;
-    justify-content:space-between;
+.descricao {
+    font-size: 20px;
+    text-align: justify;
+}
+.images-title {
+    align-items: center; 
+    align-content: center;
+    margin: 56px;
+
+}
+.imagem {
+    max-width: 100%; 
+    height: 250px; 
+    margin-right: 10px;
     
 }
 .nome {
     text-align: center;
     background-color: #1509b6;
     color: #f0f4f8;
-    padding: 1em 5;
+    padding: 10px;
+    
 }
 
+.nome-contato{
+    text-align: center;
+    background-color: #1509b6;
+    color: #f0f4f8;
+    padding: 10px;
+    margin-top: 20%;
+}
 
 section {
     margin: 10px;
@@ -33,24 +52,33 @@ section {
 }
 
 .turma {
-    width: 33%;
-    max-width: 250px;
+    
     display :flex;
     justify-content:space-between;
     
-}
-
-
-img {
-    width: 300px;
-    height: 50;
-}
-
-.imagem-grande {
-    width: 1325px;
-    height: 200px;
     
 }
+.turmas {
+    display :flex;
+    justify-content:space-between;
+}
+
+img {
+    width: 280px;
+    height: 45;
+    
+}
+.imagem-grande {
+    width: 100%;
+    height: 300px;
+    
+}
+
+#formulario{
+    margin-top: 220px;
+    margin-bottom: 40%;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -69,4 +97,44 @@ button {
     padding: 10px;
     cursor: pointer;
     border: none;
+    
+}
+
+.cards-container {
+    display: flex; /* Torna o contêiner um flex container */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os cards */
+}
+
+.card {
+    width: 18rem;
+    border: 1px solid #ddd; /* Adiciona uma borda fina ao redor do card */
+    border-radius: 8px; /* Adiciona cantos arredondados ao card */
+    overflow: hidden; /* Garante que a borda arredondada não seja afetada por conteúdo grande */
+    margin: 10px; /* Adiciona margem ao redor do card */
+    display: flex; /* Torna o contêiner um flex container */
+    flex-direction: column; /* Organiza os itens em coluna (vertical) */
+    text-align: center; /* Centraliza o texto dentro do card */
+    font-weight: bold;
+  
+}
+/* Estilo para a imagem no topo do card */
+.card-img-top {
+    width: 100%;
+    height: 270px; /* Altura da imagem, ajuste conforme necessário */
+}
+
+/* Estilo para o corpo do card */
+.card-body {
+    padding: 5px; /* Adiciona um preenchimento interno ao corpo do card */
+}
+
+/* Estilo para o texto do card */
+.card-text {
+    color: #5e5c5c; /* Cor do texto do card */
+    
+}
+
+.profissao{
+    font-weight: 100;
+    color: #1106af;
 }
